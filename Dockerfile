@@ -1,6 +1,6 @@
-FROM ubuntu:24.04
+FROM ubuntu:25.10
 
-ENV APT_CACHER_NG_VERSION=3.7.4 \
+ENV APT_CACHER_NG_VERSION=3.7.5 \
   APT_CACHER_NG_CACHE_DIR=/var/cache/apt-cacher-ng \
   APT_CACHER_NG_LOG_DIR=/var/log/apt-cacher-ng \
   APT_CACHER_NG_USER=apt-cacher-ng
